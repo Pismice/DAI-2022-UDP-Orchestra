@@ -106,36 +106,36 @@ Reminder: answer the following questions [here](https://forms.gle/6SM7cu4cYhNsRv
 | #        | Topic                                                                                                                                                                   |
 | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Question | How can we represent the system in an **architecture diagram**, which gives information both about the Docker containers, the communication protocols and the commands? |
-|          | _Insert your diagram here..._                                                                                                                                           |
+|          | _ TODO_                                                                                                                                           |
 | Question | Who is going to **send UDP datagrams** and **when**?                                                                                                                    |
-|          | _Enter your response here..._                                                                                                                                           |
+|          | _Les musiciens vont envoyer des datagrammes contenant leur son (TODO: uid aussi ?) toutes les secondes en Multicast car on a seulement à tous les auditeurs qui écouter l'opéra _                                                                                                                                           |
 | Question | Who is going to **listen for UDP datagrams** and what should happen when a datagram is received?                                                                        |
-|          | _Enter your response here..._                                                                                                                                           |
+|          | _Les auditeurs abonnées au multicast (opéra)_                                                                                                                                           |
 | Question | What **payload** should we put in the UDP datagrams?                                                                                                                    |
-|          | _Enter your response here..._                                                                                                                                           |
+|          | _L'ID du musicien et son bruit_                                                                                                                                           |
 | Question | What **data structures** do we need in the UDP sender and receiver? When will we update these data structures? When will we query these data structures?                |
-|          | _Enter your response here..._                                                                                                                                           |
+|          | _ TODO _                                                                                                                                           |
 
 ## Task 2: implement a "musician" Node.js application
 
 | #        | Topic                                                                               |
 | -------- | ----------------------------------------------------------------------------------- |
 | Question | In a JavaScript program, if we have an object, how can we **serialize it in JSON**? |
-|          | _Enter your response here..._                                                       |
+|          | _JSON.stringify(myObject) : https://developer.mozilla.org/en-US/docs/Glossary/Serialization#:~:text=The%20process%20whereby%20an%20object,stringify()%20._                                                       |
 | Question | What is **npm**?                                                                    |
-|          | _Enter your response here..._                                                       |
+|          | _Le package manager par défaut de NodeJS_                                                       |
 | Question | What is the `npm install` command?                                                  |
-|          | _Enter your response here..._                                                       |
+|          | _Permet d'installer un package NPM._                                                       |
 | Question | How can we use the `https://www.npmjs.com/` web site?                               |
-|          | _Enter your response here..._                                                       |
+|          | _On peut chercher via les catégories ou les librairies populaires ce qui pourrait nous interesser puis on l'install dans notre projet via npm install leNomDeMaLibrairie_                                                       |
 | Question | In JavaScript, how can we **generate a UUID** compliant with RFC4122?               |
-|          | _Enter your response here..._                                                       |
+|          | _https://www.npmjs.com/package/uuid_                                                       |
 | Question | In Node.js, how can we execute a function on a **periodic** basis?                  |
-|          | _Enter your response here..._                                                       |
+|          | _Avec la méthode setInterval()_                                                       |
 | Question | In Node.js, how can we **emit UDP datagrams**?                                      |
-|          | _Enter your response here..._                                                       |
+|          | https://nodejs.org/api/dgram.html                                                       |
 | Question | In Node.js, how can we **access the command line arguments**?                       |
-|          | _Enter your response here..._                                                       |
+|          | _TODO._                                                       |
 
 ## Task 3: package the "musician" app in a Docker image
 
