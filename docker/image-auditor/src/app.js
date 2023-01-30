@@ -11,12 +11,11 @@ udp_listener.bind(MULTICAST_PORT, () => {
 })
 
 var instruments = new Map();
-instruments.set("piano", "ti-ta-ti");
-instruments.set("trumpet", "pouet");
-instruments.set("flute", "trulu");
-instruments.set("violin", "gzi-gzi");
-instruments.set("drum", "boum-boum");
-
+instruments.set("ti-ta-ti", "piano");
+instruments.set("pouet", "trumpet");
+instruments.set("trulu", "flute");
+instruments.set("gzi-gzi", "violin");
+instruments.set("boum-boum", "drum");
 var musicians = [];
 
 // Récépetion des datagrammes UDP (payload des musiciens)
